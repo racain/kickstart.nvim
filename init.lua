@@ -260,6 +260,16 @@ require('lazy').setup({
       'MunifTanjim/nui.nvim',
     },
   },
+  {
+    'kdheepak/lazygit.vim',
+    dependencies = {
+      'nvim-lua/plenary.nvim',
+    },
+    keys = {
+      { '<leader>lg', '<cmd>LazyGit<cr>', desc = 'LazyGit' },
+    },
+  },
+
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
   -- This is often very useful to both group configuration, as well as handle
