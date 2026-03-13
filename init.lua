@@ -245,13 +245,9 @@ rtp:prepend(lazypath)
 -- NOTE: Here is where you install your plugins.
 require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
-<<<<<<< HEAD
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
   'tpope/vim-fugitive',
   'racain/jetbrains-one-dark-theme'
-=======
-  'NMAC427/guess-indent.nvim', -- Detect tabstop and shiftwidth automatically
->>>>>>> 3338d3920620861f8313a2745fd5d2be39f39534
 
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
